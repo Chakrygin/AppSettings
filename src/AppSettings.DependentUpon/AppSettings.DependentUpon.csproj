@@ -2,6 +2,14 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
+        <IncludeBuildOutput>False</IncludeBuildOutput>
     </PropertyGroup>
 
+    <ItemGroup>
+        <None Include="build\*.targets">
+            <Pack>True</Pack>
+            <PackagePath>build</PackagePath>
+        </None>
+    </ItemGroup>
+    
 </Project>

@@ -12,6 +12,14 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F66DAAB4-0B6C-4F1F-9FC9-DF541B1EB4D6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{2B7912CE-A02E-41B7-AF25-6F7BEF31478B}"
+ProjectSection(SolutionItems) = preProject
+	build.cake = build.cake
+	build.cmd = build.cmd
+	build.ps1 = build.ps1
+	Directory.Build.props = Directory.Build.props
+	.gitattributes = .gitattributes
+	.gitignore = .gitignore
+EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
