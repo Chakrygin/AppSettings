@@ -1,5 +1,7 @@
 image: "Visual Studio 2017"
 
+version: '{build}'
+
 build_script:
   - '.\build.cmd'
 
@@ -19,7 +21,7 @@ deploy:
 
   - provider: NuGet
     api_key:
-      secure: none
+      secure: /4akJi/dDEl7y0z/T0fjz0/bHt+9eB9lhvp7+JMWVO0VusTXFG6AHA3TFKm2YHon
     skip_symbols: true
     artifact: nupkg
     on:
