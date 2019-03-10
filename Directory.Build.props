@@ -1,5 +1,18 @@
 ﻿<Project>
     <PropertyGroup>
+        <Authors>Igor Chakrygin</Authors>
+        <Copyright>Copyright © Igor Chakrygin 2019</Copyright>
+
+        <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+        <!--<PackageIconUrl>TODO</PackageIconUrl>-->
+        <!--<PackageReleaseNotes>TODO</PackageReleaseNotes>-->
+
+        <!--<RepositoryUrl>TODO</RepositoryUrl>-->
+        <!--<RepositoryType>git</RepositoryType>-->
+
+
         <!-- TODO: https://docs.microsoft.com/en-us/dotnet/core/tools/csproj -->
     </PropertyGroup>
 </Project>

@@ -4,6 +4,12 @@
         <TargetFramework>netstandard2.0</TargetFramework>
         <IncludeBuildOutput>False</IncludeBuildOutput>
     </PropertyGroup>
+    
+    <PropertyGroup>
+        <PackageProjectUrl
+        <PackageDescription>Automatically enables nesting of appsettings files in JetBrains Rider.</PackageDescription>
+        <PackageTags>appsettings</PackageTags>
+    </PropertyGroup>
 
     <ItemGroup>
         <None Include="build\*.targets">
