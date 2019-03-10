@@ -24,6 +24,12 @@ ProjectSection(SolutionItems) = preProject
 	README.md = README.md
 EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{21F80949-8A4E-4C16-9C30-B1C03924EBC3}"
+ProjectSection(SolutionItems) = preProject
+	assets\after.png = assets\after.png
+	assets\before.png = assets\before.png
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
