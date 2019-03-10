@@ -19,6 +19,7 @@ ProjectSection(SolutionItems) = preProject
 	Directory.Build.props = Directory.Build.props
 	.gitattributes = .gitattributes
 	.gitignore = .gitignore
+	.appveyor.yml = .appveyor.yml
 EndProjectSection
 EndProject
 Global
