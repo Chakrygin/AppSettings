@@ -6,12 +6,13 @@
         <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
 
+        <PackageProjectUrl>https://github.com/Chakrygin/AppSettings</PackageProjectUrl>
+
+        <RepositoryUrl>https://github.com/Chakrygin/AppSettings.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+
         <!--<PackageIconUrl>TODO</PackageIconUrl>-->
         <!--<PackageReleaseNotes>TODO</PackageReleaseNotes>-->
-
-        <!--<RepositoryUrl>TODO</RepositoryUrl>-->
-        <!--<RepositoryType>git</RepositoryType>-->
-
 
         <!-- TODO: https://docs.microsoft.com/en-us/dotnet/core/tools/csproj -->
     </PropertyGroup>

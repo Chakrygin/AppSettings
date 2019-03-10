@@ -27,14 +27,22 @@ Task("GitVersion")
         var fileVersion = result.AssemblySemFileVer;
         var informationalVersion = result.InformationalVersion;
 
+        var repositoryBranch = result.BranchName;
+        var repositoryCommit = result.Sha;
+
         Information($"Version: {version}");
         Information($"FileVersion: {fileVersion}");
         Information($"InformationalVersion: {informationalVersion}");
 
+        Information($"RepositoryBranch: {repositoryBranch}");
+        Information($"RepositoryCommit: {repositoryCommit}");
+
         MSBuildSettings
             .SetVersion(version)
             .SetFileVersion(fileVersion)
-            .SetInformationalVersion(informationalVersion);
+            .SetInformationalVersion(informationalVersion)
+            .WithProperty("RepositoryBranch", repositoryBranch)
+            .WithProperty("RepositoryCommit", repositoryCommit);
     });
 
 

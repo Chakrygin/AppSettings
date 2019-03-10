@@ -6,9 +6,8 @@
     </PropertyGroup>
     
     <PropertyGroup>
-        <PackageProjectUrl
-        <PackageDescription>Automatically enables nesting of appsettings files in JetBrains Rider.</PackageDescription>
         <PackageTags>appsettings</PackageTags>
+        <PackageDescription>Automatically enables nesting of appsettings files in JetBrains Rider.</PackageDescription>
     </PropertyGroup>
 
     <ItemGroup>
